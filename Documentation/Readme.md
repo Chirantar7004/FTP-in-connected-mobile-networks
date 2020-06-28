@@ -30,11 +30,11 @@ For this assignment, it was required to maximize the volume of traffic transferr
 
 I decided to opt-in for UDP protocol because of the speed and traffic maximization.
 
-Our approach follows a classical client-server architecture, where the communication needs to happen between them continuously. Having in mind that UDP does not offer error-checking and that packets might be lost during the way, I created a solution to handle those missing features, without affecting the performance.
+This approach follows a classical client-server architecture, where the communication needs to happen between them continuously. Having in mind that UDP does not offer error-checking and that packets might be lost during the way, I created a solution to handle those missing features, without affecting the performance.
 
-Our program features a checksum verification as well, among the packet loss tracking.
+This program features a checksum verification as well, among the packet loss tracking.
 
-###Our program includes the following features:
+### program includes the following features:
 
 1. Heartbeat protocol to keep both parties up-to-date with the status of the file transfer.
 2. Intelligent loss variable which tracks the packets loss during the transfer and sends them again when the client is reconnected to the server
