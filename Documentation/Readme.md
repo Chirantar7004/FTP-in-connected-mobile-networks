@@ -162,7 +162,7 @@ I transferred files under scenario. I display some of the results in the table b
 | base_scenario.py | Fast   | 3.06  | 2087b|
 
 
-I checked that performance ce in fast network is significantly faster in fast network as expected.
+I checked that performance in fast network is significantly faster in fast network as expected.
 
 
 
