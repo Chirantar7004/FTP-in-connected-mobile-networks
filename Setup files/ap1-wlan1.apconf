@@ -1,0 +1,9 @@
+interface=ap1-wlan1
+driver=nl80211
+ssid=ap1-ssid
+hw_mode=g
+channel=1
+wme_enabled=1
+wmm_enabled=1
+ctrl_interface=/var/run/hostapd
+ctrl_interface_group=0
